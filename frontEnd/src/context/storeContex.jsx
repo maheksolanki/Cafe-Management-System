@@ -7,7 +7,7 @@ const StoreContextProvider = (props) => {
 
   // here state veriable stores object
   const [cartItem, setCartItem] = useState({});
-  const url = 'http://localhost:4000';
+  const url = 'https://cafe-management-system-cqw8.onrender.com';
   const [token ,setToken] = useState("");
   const [food_list , setFoodList] = useState([]);
 
