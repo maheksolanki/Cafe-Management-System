@@ -62,7 +62,7 @@ export const Navbar = ({ setShowLogin }) => {
         </Link>
       </ul>
       <div className="navbar-right">
-        <FaSearch className="search-icon" />
+       
         <div className="navbar-search-icon">
           <Link to="/cart">
             <FaCartArrowDown className="cart-icon" />
